@@ -96,10 +96,21 @@ header button {
 
 /* hero */
 
+.hero {
+  height: 400px;
+}
+
 .hero img {
   width: 100%;
   height: 400px;
   object-fit: cover;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.hero img.current {
+  opacity: 1;
 }
 
 
